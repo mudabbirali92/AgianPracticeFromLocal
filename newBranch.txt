@@ -1,0 +1,22 @@
+You will now publish your bracnh from local repo to remote repo:
+so u need to first create bacnh in local machine trhhough command:
+git checkout -b Student1
+
+then
+git remote -v // just to make sure how many remote rops u have and connected to
+
+if
+this is written:
+
+FromLocalRepoCreated    https://github.com/mudabbirali92/AgianPracticeFromLocal.git (fetch)
+FromLocalRepoCreated    https://github.com/mudabbirali92/AgianPracticeFromLocal.git (push)
+
+then
+Your are connected!
+
+Now
+just push as you do usually but with minor changes with the brach name as you have declared at ur local repo
+so follow command:
+git push <RepoName> <Branch> i.e.
+git push FromLocalRepoCreated Student1
+
